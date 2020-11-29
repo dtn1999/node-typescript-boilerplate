@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "outDir": "./build",                        
+    "rootDir": "./",                       
+    "target": "ES2018",                          
+    "module": "commonjs", 
+    "strict": true,                      
+    "esModuleInterop": true,                  
+    "lib": ["ESNext"],
+    /* Advanced Options */
+    "skipLibCheck": true,                     /* Skip type checking of declaration files. */
+    "forceConsistentCasingInFileNames": true  /* Disallow inconsistently-cased references to the same file. */
+  },
+  "exclude": ["build","tests"]
+}
